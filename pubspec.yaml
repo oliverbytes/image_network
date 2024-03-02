@@ -11,7 +11,10 @@ dependencies:
     sdk: flutter
 
   http: ^1.2.1
-  webviewimage: ^0.0.6
+  # webviewimage: ^0.0.6
+  webviewimage:
+    git:
+      url: https://github.com/oliverbytes/webviewimage.git
 
 dev_dependencies:
   flutter_test:
